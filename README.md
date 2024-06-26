@@ -86,11 +86,3 @@ $ python main.py
 General Informations:
 - If you have a problem, [CLICK HERE](https://youtu.be/B5xxURQtd3A) to watch the YouTube video.
 - If you find any malfunction, contact me on Discord: Astraa#6100 or join my [Discord Server](https://discord.gg/GNQUKuecmv).
-
-
-## Example
-![verification_example.png](https://cdn.discordapp.com/attachments/826581697436581919/989174080332787712/unknown.png?size=4096)
-
-
-## Credits
-Many thanks to [RuslanUC](https://github.com/RuslanUC) for [RemoteAuthClient](https://github.com/RuslanUC/RemoteAuthClient).
