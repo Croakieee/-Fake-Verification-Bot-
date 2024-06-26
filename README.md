@@ -14,10 +14,6 @@ This project will not be updated and has been patched.</h1>
   </a>
   <a href="https://github.com/AstraaDev">
     <img src="https://img.shields.io/github/repo-size/AstraaDev/Fake-Verification-Bot.svg?label=Repo%20size&style=flat-square">
-  </a>
-    <p align="center"> <a href="https://twitter.com/astraadev" target="blank">
-    <img src="https://img.shields.io/twitter/follow/astraadev?logo=twitter&style=for-the-badge" alt="astraadev"/></a>
-  </a>
 </p>
 
 <p align="center">
