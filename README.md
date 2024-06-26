@@ -81,8 +81,3 @@ $ git clone https://github.com/AstraaDev/Fake-Verification-Bot.git
 $ python -m pip install -r requirements.txt
 $ python main.py
 ```
-
-## Additional Informations
-General Informations:
-- If you have a problem, [CLICK HERE](https://youtu.be/B5xxURQtd3A) to watch the YouTube video.
-- If you find any malfunction, contact me on Discord: Astraa#6100 or join my [Discord Server](https://discord.gg/GNQUKuecmv).
